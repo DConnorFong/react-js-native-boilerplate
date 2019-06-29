@@ -5,7 +5,7 @@
         "packages": [
             "packages/*"
         ],
-        "nohoist": []
+        "nohoist": ["**/expo", "**/expo/**"]
     },
     "scripts": {
         "lint:web": "tslint -c ./tslint.json './packages/web/**/*.ts*'",
